@@ -1,0 +1,12 @@
+.swiper-pagination-bullet {
+    background-color: #000 !important;
+    height: 10px !important;
+    width: 10px !important;
+    padding: 0px !important;
+  }
+  .swiper-pagination-bullet:not(:last-child) {
+    margin-right: 15px !important; /* Adjust as needed */
+  }
+  .swiper-pagination {
+    bottom: 0px !important; /* Adjust as needed */
+  }
