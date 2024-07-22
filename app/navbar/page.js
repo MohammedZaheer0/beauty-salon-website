@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
 
         {isClick && (
-          <div className='lg:hidden flex-col items-center absolute top-[100px] w-full bg-white py-10 pb-52 z-10'>
+          <div className='lg:hidden flex-col items-center absolute top-[100px] w-full bg-white py-10 h-full  z-10'>
             <ul className='flex flex-col justify-center items-center gap-8'>
               <li className={pathname === '/' ? 'active' : ''}>
                 <Link href='/' className='cursor-pointer text-[15px]'>
