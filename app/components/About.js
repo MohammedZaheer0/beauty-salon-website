@@ -39,7 +39,7 @@ const About = () => {
 
       <div className='my-7 w-[90%] mx-auto text-center'>
 
-        <h1 className='text-[25px] mb-7 mt-10 font-medium'>Our <span className='text-[#FB7902]'>Story</span></h1>
+        <h1 className='md:text-[30px] text-[25px] mb-7 mt-10 font-medium'>Our <span className='text-[#FB7902]'>Story</span></h1>
         <p className='text-[#4A4A4A] my-7'>Since 2012 in a charming Hawaii Town, Serene Beauty emerged as a haven for beauty and tranquility. Founded by Sarah, a passionate hairstylist, the salons simple yet profound vision was to enhance natural beauty while providing a peaceful escape.</p>
         <p className='text-[#4A4A4A] my-7'>With time, Serene Beautys dedicated team grew, offering a range of services from esthetics to makeup. It became a beloved part of the community, known for its serene ambiance and commitment to giving back through charity events.</p>
 

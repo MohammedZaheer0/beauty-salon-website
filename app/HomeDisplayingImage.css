@@ -2,7 +2,8 @@
     background-color: #000 !important;
     height: 10px !important;
     width: 10px !important;
-    padding: 0px !important;
+    padding: 1px !important;
+    text-align: center !important;
   }
   .swiper-pagination-bullet:not(:last-child) {
     margin-right: 15px !important; /* Adjust as needed */
