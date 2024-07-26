@@ -53,7 +53,7 @@ const CategoriesAPI = () => {
           <div key={index} className='w-[90%] mx-auto'>
             <div className='grid grid-cols-2 items-center justify-between w-[100%] my-10 relative'>
               <h1 className='md:text-3xl font-medium'>{category.heading}</h1>
-              <button className='bg-[#000] absolute right-0 text-white text-center flex justify-end py-2 px-6 rounded-sm'>
+              <button className='bg-[#000] absolute right-0 text-white text-center flex justify-end py-2 px-5 rounded-sm'>
                 {category.buttonLabel}
               </button>
             </div>
@@ -63,7 +63,7 @@ const CategoriesAPI = () => {
               {category.products.map((product, idx) => (
                 <div key={idx} className='my-5 md:my-0 '>
                   <Image src={product.image} alt={product.title} width={250} height={250} className='w-[100%] mx-auto' />
-                  <div className="flex justify-between items-center text-2xl my-2 font-medium">
+                  <div className="flex justify-between items-center md:text-2xl my-3 font-medium">
                     <h1>{product.title}</h1>
                     <p>{product.price}</p>
                   </div>
