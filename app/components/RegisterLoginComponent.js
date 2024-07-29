@@ -82,8 +82,8 @@ const RegisterLoginComponent = ({
   return (
     <div>
       <div className='w-[90%] mx-auto my-14 grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-0 h-[100%]'>
-        <div className={`${bgImage} flex flex-col py-20 px-14`}>
-          <h2 className='text-[#000] font-medium md:text-3xl text-2xl my-4 w-[100%] md:w-[70%] registrationwordspacing'>
+        <div className={`${bgImage} flex flex-col py-20 md:px-14 px-4`}>
+          <h2 className='text-[#000] font-medium md:text-3xl text-2xl my-4 w-[90%] md:w-[70%] registrationwordspacing'>
             We show your skin, hair, and body the care and attention they deserve.
           </h2>
           <p className='text-[#000] font-medium text-[13px]'>Where Tranquility Meets Transformation.</p>

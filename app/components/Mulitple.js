@@ -1,5 +1,7 @@
 'use client';
 import React from 'react';
+import { useRouter } from 'next/navigation';
+
 import Image from 'next/image';
 import ExploreServices1 from '../../public/images/exploreservice1.png';
 import ExploreServices2 from '../../public/images/exploreservice2.png';
@@ -15,6 +17,7 @@ import Testimonials from '../components/Testimonials';
 
 
 const Mulitple = () => {
+    const router = useRouter();
   return (
     <div>
          {/* Explore Services */}
@@ -24,7 +27,7 @@ const Mulitple = () => {
                     <h1 className='md:text-3xl sm:text-2xl'>Enhance your inner radiance <br /> at our <span className='text-[#FB7902]'>beauty sanctuary</span> and <br /> let your true beauty shine.</h1>
                 </div>
                 <div>
-                <button className='ml-0 bg-[#000] text-white text-center flex py-2 px-6 mt-5 md:mt-0 rounded-sm md:mx-auto '>Explore Services</button>
+                <button className='ml-0 bg-[#000] text-white text-center flex py-2 px-6 mt-5 md:mt-0 rounded-sm md:mx-auto' onClick={() => router.push('/services/categories')}>Explore Services</button>
                 </div>
         </div>
 
