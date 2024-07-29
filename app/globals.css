@@ -20,3 +20,20 @@
 .ourstoryp{
     line-height: 30px;
 }
+.bookingimage{
+    background: url('../public/images/BookingBG.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:768px){
+    .bookingimage{
+        background: none;
+    }
+}
+.bookingimagecenter{
+    background-color: rgba(30, 30, 30, 0.95);
+}
+select option{
+    color: #a09f9f;
+}
