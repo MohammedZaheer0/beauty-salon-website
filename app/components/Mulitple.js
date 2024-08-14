@@ -34,19 +34,19 @@ const Mulitple = () => {
 
         <div className='my-8 grid md:grid-cols-3 sm:gap-5'>
             <div className='my-5 md:my-0'>
-                <Image src={ExploreServices1} alt='ExploreServices1' className='w-[100%] mx-auto'/>
+                <Image src={ExploreServices1} alt='ExploreServices1' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Hair Salon Haven</h1>
                 <p className='text-[#FB7902]'>Explore Now &rarr;</p>
             </div>
 
             <div className='my-5 md:my-0'>
-                <Image src={ExploreServices2} alt='ExploreServices2' className='w-[100%] mx-auto'/>
+                <Image src={ExploreServices2} alt='ExploreServices2' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Waxing Salon Haven</h1>
                 <p className='text-[#FB7902]'>Explore Now &rarr;</p>
             </div>
 
             <div className='my-5 md:my-0'>
-                <Image src={ExploreServices3} alt='ExploreServices3' className='w-[100%] mx-auto'/>
+                <Image src={ExploreServices3} alt='ExploreServices3' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Skincare Salon Haven</h1>
                 <p className='text-[#FB7902]'>Explore Now &rarr;</p>
             </div>
@@ -56,11 +56,11 @@ const Mulitple = () => {
 
         <div className='my-14 grid md:grid-cols-2 gap-5'>
             <div className='w-[100%] h-[100%]'>
-                <Image src={ExploreServices4} alt='ExploreServices4' className='w-[100%] mx-auto'/>
+                <Image src={ExploreServices4} alt='ExploreServices4' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-3xl my-5 font-medium'>The Place Of <span className='text-[#FB7902]'>Beauty</span></h1>
             </div>
             <div className='w-[100%] h-[100%]'>
-                <Image src={ExploreServices6} alt='ExploreServices6' className='w-[100%] mx-auto'/>
+                <Image src={ExploreServices6} alt='ExploreServices6' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-[#4A4A4A] my-5 w-[80%]'>Our heart goes out at what to we do and our slogan is making our customers  feel beautiful and fabulous.</h1>
             </div>
         </div>
@@ -79,18 +79,18 @@ const Mulitple = () => {
 
             <div className='grid md:grid-cols-3 gap-5 my-10'>
                 <div className='cursor-pointer'>
-                    <Image src={ExploreCollection1} alt='ExploreCollection1' className='w-[100%] mx-auto my-5 md:my-2'/>
+                    <Image src={ExploreCollection1} alt='ExploreCollection1' className='w-[100%] mx-auto my-5 md:my-2' priority/>
                 </div>
                 <div className='cursor-pointer'>
-                    <Image src={ExploreCollection2} alt='ExploreCollection2' className='w-[100%] mx-auto my-5 md:my-2'/>
+                    <Image src={ExploreCollection2} alt='ExploreCollection2' className='w-[100%] mx-auto my-5 md:my-2' priority/>
                 </div>
                 <div className='cursor-pointer'>
-                    <Image src={ExploreCollection3} alt='ExploreCollection3' className='w-[100%] mx-auto my-5 md:my-2'/>
+                    <Image src={ExploreCollection3} alt='ExploreCollection3' className='w-[100%] mx-auto my-5 md:my-2' priority/>
                 </div>
             </div>
 
             <div className='cursor-pointer my-7 w-[100%] mx-auto'>
-                    <Image src={ExploreCollection4} alt='ExploreCollection4' className='w-[100%] mx-auto'/>
+                    <Image src={ExploreCollection4} alt='ExploreCollection4' className='w-[100%] mx-auto' priority/>
                 </div>
 
         </div>

@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className='w-[90%] mx-auto left-0 right-0 grid grid-cols-[30%_70%] justify-between items-center py-5'>
           <div className='flex letterspacing items-center text-[15px] md:text-[16px] cursor-pointer'>
             <span onClick={() => router.push('/')}>SERENE </span>
-            <Image src={Logo} alt='Logo' onClick={() => router.push('/')} />
+            <Image src={Logo} alt='Logo' onClick={() => router.push('/')} priority/>
             <span className='text-[#FB7902] mx-1' onClick={() => router.push('/')}> BEAUTY</span>
           </div>
 

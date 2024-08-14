@@ -63,7 +63,7 @@ const CategoriesAPI = () => {
             <div className='my-8 grid md:grid-cols-3 sm:gap-5'>
               {category.products.map((product, idx) => (
                 <div key={idx} className='my-5 md:my-0 '>
-                  <Image src={product.image} alt={product.title} width={250} height={250} className='w-[100%] mx-auto' />
+                  <Image src={product.image} alt={product.title} priority width={250} height={250} className='w-[100%] mx-auto' />
                   <div className="flex justify-between items-center md:text-2xl my-3 font-medium">
                     <h1>{product.title}</h1>
                     <p>{product.price}</p>

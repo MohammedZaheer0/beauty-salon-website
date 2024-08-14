@@ -57,7 +57,7 @@ const Footer = () => {
 
             <div className='flex letterspacing items-center mx-auto md:mx-0 text-[15px] md:text-[16px] cursor-pointer'>
             <span onClick={() => router.push('/')}>SERENE </span>
-            <Image src={Logo} alt='Logo' onClick={() => router.push('/')} />
+            <Image src={Logo} alt='Logo' onClick={() => router.push('/')} priority/>
             <span className='text-[#FB7902] mx-1' onClick={() => router.push('/')}> BEAUTY</span>
           </div>
 

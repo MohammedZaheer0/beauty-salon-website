@@ -30,9 +30,9 @@ export default function App() {
         modules={[Pagination,Autoplay]}
         className="mySwiper mt-16 w-[100%] md:h-[80vh] mx-auto flex justify-between items-center"
       >
-        <SwiperSlide><Image src={HomeDisplayImage1} alt='HomeDisplayImage1' className='w-[100%]'/> </SwiperSlide>
-        <SwiperSlide><Image src={HomeDisplayImage2} alt='HomeDisplayImage2' className='w-[100%]'/> </SwiperSlide>
-        <SwiperSlide><Image src={HomeDisplayImage1} alt='HomeDisplayImage1' className='w-[100%]'/> </SwiperSlide>
+        <SwiperSlide><Image src={HomeDisplayImage1} alt='HomeDisplayImage1' className='w-[100%]' priority/> </SwiperSlide>
+        <SwiperSlide><Image src={HomeDisplayImage2} alt='HomeDisplayImage2' className='w-[100%]' priority/> </SwiperSlide>
+        <SwiperSlide><Image src={HomeDisplayImage1} alt='HomeDisplayImage1' className='w-[100%]' priority/> </SwiperSlide>
       </Swiper>
     </>
   );

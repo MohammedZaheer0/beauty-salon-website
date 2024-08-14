@@ -20,13 +20,13 @@ const About = () => {
         
       <div>
         <div className='w-[90%] mx-auto mt-14 mb-10'>
-            <Image src={YoutubeImage} alt='YoutubeImage' className='w-[100%]'/>
+            <Image src={YoutubeImage} alt='YoutubeImage' priority className='w-[100%]'/>
         </div>
 
         <div className='w-[90%] mx-auto grid md:grid-cols-3 justify-between items-center gap-7 mb-7'>
           <div className=' flex letterspacing items-center text-[15px] md:text-[16px] cursor-pointer'>
             <span onClick={() => router.push('/')}>SERENE </span>
-            <Image src={Logo} alt='Logo' onClick={() => router.push('/')} />
+            <Image src={Logo} priority alt='Logo' onClick={() => router.push('/')} />
             <span className='text-[#FB7902] mx-1' onClick={() => router.push('/')}> BEAUTY</span>
           </div>
 
@@ -44,15 +44,15 @@ const About = () => {
         <p className='text-[#4A4A4A] my-10'>With time, Serene Beautys dedicated team grew, offering a range of services from esthetics to makeup. It became a beloved part of the community, known for its serene ambiance and commitment to giving back through charity events.</p>
 
         <div className=' grid md:grid-cols-3 grid-cols-1 justify-between items-center gap-5'>
-          <Image src={AboutOurServiceImg1} alt='AboutOurServiceImg1'/>
-          <Image src={AboutOurServiceImg2} alt='AboutOurServiceImg2'/>
-          <Image src={AboutOurServiceImg3} alt='AboutOurServiceImg3'/>
+          <Image src={AboutOurServiceImg1} alt='AboutOurServiceImg1' priority/>
+          <Image src={AboutOurServiceImg2} alt='AboutOurServiceImg2' priority/>
+          <Image src={AboutOurServiceImg3} alt='AboutOurServiceImg3' priority/>
         </div>
       </div>
 
 
       <div className='grid md:grid-cols-2 grid-cols-1 justify-between items-center lg:items-start w-[90%] mx-auto my-14'>
-        <Image src={CEO} alt='CEO' className='md:w-[80%] lg:w-[70%]'/>
+        <Image src={CEO} alt='CEO' className='md:w-[80%] lg:w-[70%]' priority/>
         
         <div>
           <h1 className='mb-5 mt-5 md:mt-0 text-[#4A4A4A]'>THE LADY OF THE HOUR (CEO)</h1>
@@ -62,7 +62,7 @@ const About = () => {
  
           <div className='my-7'>
             <div className='flex justify-center items-start my-5 gap-5'>
-              <Image src={one} alt='one'/>
+              <Image src={one} alt='one' priority/>
               <div>
                 <h2 className='text-[18px] font-semibold'>Master Stylist of the Year:</h2>
                 <p className='text-[#4A4A4A]'>Sarahs exceptional talent and dedication to her craft earned her the prestigious title of Master Stylist of the Year at the National Beauty Excellence Awards.</p>
@@ -79,7 +79,7 @@ const About = () => {
             </div>
 
             <div className='flex justify-center items-start my-5 gap-5'>
-              <Image src={three} alt='three'/>
+              <Image src={three} alt='three' priority/>
               <div>
                 <h2 className='text-[18px] font-semibold'>Green Beauty Innovator:</h2>
                 <p className='text-[#4A4A4A]'>Sarahs commitment to eco-friendly and sustainable beauty practices was acknowledged with the Green Beauty Innovator award</p>
@@ -107,21 +107,21 @@ const About = () => {
 
         <div className='my-8 grid md:grid-cols-3 sm:gap-5'>
             <div className='my-5 md:my-0'>
-                <Image src={AboutMeetOurTeam1} alt='AboutMeetOurTeam1' className='w-[100%] mx-auto'/>
+                <Image src={AboutMeetOurTeam1} alt='AboutMeetOurTeam1' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>James Ethan</h1>
                 <p className='my-3 text-[#4A4A4A]'>James is the serene soul behind Serene Beautys spa and wellness offerings. With a wealth of experience in esthetics and...</p>
                 <p className='text-[#FB7902]'>Read More &rarr;</p>
             </div>
 
             <div className='my-5 md:my-0'>
-                <Image src={AboutMeetOurTeam2} alt='AboutMeetOurTeam2' className='w-[100%] mx-auto'/>
+                <Image src={AboutMeetOurTeam2} alt='AboutMeetOurTeam2' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Cynthia Makafui</h1>
                 <p className='my-3 text-[#4A4A4A]'>Cynthia is the visionary artist responsible for the salons stunning makeup transformations. Her creativity knows...</p>
                 <p className='text-[#FB7902]'>Read More &rarr;</p>
             </div>
 
             <div className='my-5 md:my-0'>
-                <Image src={AboutMeetOurTeam3} alt='AboutMeetOurTeam3' className='w-[100%] mx-auto'/>
+                <Image src={AboutMeetOurTeam3} alt='AboutMeetOurTeam3' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Angela Goodwill</h1>
                 <p className='my-3 text-[#4A4A4A]'>Angela is the nail guru who turns manicures and pedicures into works of art. Her meticulous attention to detail and...</p>
                 <p className='text-[#FB7902]'>Read More &rarr;</p>

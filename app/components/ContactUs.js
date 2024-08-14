@@ -93,7 +93,7 @@ const ContactUs = () => {
                 </div>
               </div>
 
-            <Image src={Branch1} alt='Branch1' className='w-[100%]'/>
+            <Image src={Branch1} alt='Branch1' className='w-[100%]' priority/>
             </div>
 
 
@@ -113,7 +113,7 @@ const ContactUs = () => {
                 </div>
               </div>
 
-            <Image src={Branch2} alt='Branch1' className='w-[100%]'/>
+            <Image src={Branch2} alt='Branch1' className='w-[100%]' priority/>
             </div>
       </div>
 

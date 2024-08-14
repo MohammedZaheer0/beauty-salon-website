@@ -1,4 +1,3 @@
-'use client'
 import React from 'react';
 import Mulitple from './Mulitple';
 import HomeDisplayImage from '../components/HomeDisplayImages';
@@ -33,8 +32,8 @@ const Services = () => {
           <p className='mb-3'>Ama Clothing Shop</p>
           <p className='mb-3'>Judenre Hairline</p>
         </div>
-        <Image src={PhneBag} alt='PhneBag' className='w-[100%]'/>
-        <Image src={Jab} alt='Jab' className='w-[100%]'/>
+        <Image src={PhneBag} alt='PhneBag' className='w-[100%]' priority/>
+        <Image src={Jab} alt='Jab' className='w-[100%]' priority/>
         </div> 
 
         <button className='bg-[#000] text-white text-center flex py-2 px-6 rounded-sm mx-auto '>Book Now</button>
