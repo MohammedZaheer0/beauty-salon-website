@@ -11,6 +11,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 
+  function mouseover() {
+    const tl = gsap.timeline();
+    tl.to(".mouseover", {
+        x: 10,
+        duration: 0.1,
+        repeat:-1,
+        yoyo: true, // Adds the yoyo effect for shaking
+    });
+  }
+
   useEffect(() => {
     // Create GSAP timeline with ScrollTrigger
     const tl = gsap.timeline({
@@ -24,7 +34,7 @@ const Home = () => {
     
     // Define the animation
     tl.fromTo(".main", 
-      { opacity: 1, scale: 0.5 }, // Start state
+      { opacity: 1, scale: 0.5 }, // Start state (opacity 0 for fade-in)
       { opacity: 1, scale: 1, duration: 1 } // End state
     );
   }, []);
@@ -35,7 +45,9 @@ const Home = () => {
       <h1 className='my-7 text-center lg:text-5xl text-3xl sm:text-4xl md:w-[80%] lg:w-[50%] mx-auto linehieght'>
         We show your <span className='text-[#FB7902]'>skin, hair,</span> and <span className='text-[#FB7902]'>body</span> the care and attention they deserve.
       </h1>
-      <button className='bg-[#000] text-white text-center flex py-2 px-6 rounded-sm mx-auto'>Book Now</button>
+      <button className='bg-[#000] text-white text-center flex py-2 px-6 rounded-sm mx-auto mouseover' onMouseOver={mouseover}>
+        Book Now
+      </button>
       <div className='main opacity-0 scale-50'>
         <HomeDisplayImage />
       </div>
