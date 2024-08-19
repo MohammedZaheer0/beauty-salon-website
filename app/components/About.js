@@ -110,21 +110,21 @@ const About = () => {
                 <Image src={AboutMeetOurTeam1} alt='AboutMeetOurTeam1' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>James Ethan</h1>
                 <p className='my-3 text-[#4A4A4A]'>James is the serene soul behind Serene Beautys spa and wellness offerings. With a wealth of experience in esthetics and...</p>
-                <p className='text-[#FB7902]'>Read More &rarr;</p>
+                <p className='text-[#FB7902] cursor-pointer'>Read More &rarr;</p>
             </div>
 
             <div className='my-5 md:my-0'>
                 <Image src={AboutMeetOurTeam2} alt='AboutMeetOurTeam2' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Cynthia Makafui</h1>
                 <p className='my-3 text-[#4A4A4A]'>Cynthia is the visionary artist responsible for the salons stunning makeup transformations. Her creativity knows...</p>
-                <p className='text-[#FB7902]'>Read More &rarr;</p>
+                <p className='text-[#FB7902] cursor-pointer'>Read More &rarr;</p>
             </div>
 
             <div className='my-5 md:my-0'>
                 <Image src={AboutMeetOurTeam3} alt='AboutMeetOurTeam3' className='w-[100%] mx-auto' priority/>
                 <h1 className='text-2xl my-2 font-medium'>Angela Goodwill</h1>
                 <p className='my-3 text-[#4A4A4A]'>Angela is the nail guru who turns manicures and pedicures into works of art. Her meticulous attention to detail and...</p>
-                <p className='text-[#FB7902]'>Read More &rarr;</p>
+                <p className='text-[#FB7902] cursor-pointer'>Read More &rarr;</p>
             </div>
         </div>
 

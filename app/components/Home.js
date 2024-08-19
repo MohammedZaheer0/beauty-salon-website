@@ -16,8 +16,8 @@ const Home = () => {
     tl.to(".mouseover", {
         x: 10,
         duration: 0.1,
-        repeat:-1,
-        yoyo: true, // Adds the yoyo effect for shaking
+        repeat:5,
+        yoyo: true, 
     });
   }
 
